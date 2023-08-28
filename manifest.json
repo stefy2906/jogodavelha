@@ -1,9 +1,21 @@
 {
     "name": "JOGO DA VELHA",
-    "short_name": "jogo",
+    "short_name": "jogo em pwa",
     "icons":[
         {
-            "src":""
+            "src":"img/logo.png",
+            "sizes":"256x256",
+            "type": "image/png"
+        },
+        {
+            "src":"img/logo.png",
+            "sizes":"512x512",
+            "type": "image/png"
         }
-    ]
+    ],
+    "lang": "pt-BR",
+    "start-url":"/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
 }
