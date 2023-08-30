@@ -3,12 +3,12 @@
     "short_name": "jogo em pwa",
     "icons":[
         {
-            "src":"img/logo.png",
+            "src":"img/jgo.png",
             "sizes":"256x256",
             "type": "image/png"
         },
         {
-            "src":"img/quin.png",
+            "src":"img/jogo.png",
             "sizes":"512x512",
             "type": "image/png"
         }
