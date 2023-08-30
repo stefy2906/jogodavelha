@@ -108,14 +108,14 @@ setOnCeil = function(cel, pos) {
             (jogadorAtual.forma == 0) ? jogadorAtual = jogador2 : jogadorAtual = jogador1;
             setLabelJogadorAtual();
 
-        } else alert('Ops. Already marked value for this =/');
+        } else alert('Deu Velha !!');
 
         allElementsInSomeLine();
         allElementsInSomeColumn();
         allElementsInSomeDiagonal();
 
         if ( tabuleiroIsFilled() ) {
-            alert ('Nobody ganhou! :(. Try Again');
+            alert ('Fim de Jogo!!');
             reset();
         }
         
