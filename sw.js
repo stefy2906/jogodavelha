@@ -6,10 +6,10 @@ let filesToCache = ["/", "/index.html”",
 download do conteúdo da aplicação */
 self.addEventListener("install", (e) => {
     e.waitUntil(
-    caches . open(cacheName).then(function (cache) {
+    caches.open(cacheName).then(function (cache) {
         return cache.addAll(filesToCache);
     })
-);
+  );
 });
 
 /* disponibilizando o conteudo quando estiver offline */
