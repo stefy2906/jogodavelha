@@ -8,10 +8,14 @@ html, .fullscren{
     padding: 0%;
     width: 100%;
 }
+h1,h3{
+    text-align: center;
+}
 .container{
     margin: auto;
 }
 table {
+    text-align: center;
     width:450px;
     height:350px;
     border:1px solid black;
