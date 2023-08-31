@@ -1,2 +1,2 @@
 # jogodavelha
- pwa em jogo da velha
+Fazendo jogo da velha usando a pwa
