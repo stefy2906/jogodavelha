@@ -1,4 +1,4 @@
-let cacheName = "jogodavelha";
+let CacheName = "jogodavelha";
 let filesToCache = ["/", "/index.html”",
 "/css/style.css", "/js/js.js"];
 
