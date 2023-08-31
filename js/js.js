@@ -24,7 +24,7 @@ var index = null;
 var tabuleiro = new Array(9);
 
 
-initGame = function() {
+ComecaJogo = function() {
     var nomeJogador1 = document.getElementById('jogador1').value;
     var nomeJogador2 = document.getElementById('jogador2').value;
     jogador1 = new Jogador(nomeJogador1, 0); //X
@@ -34,7 +34,7 @@ initGame = function() {
     setLabelJogadorAtual();
 
     //APOS DEFINIÇÃO DE JOGADORES, EXIBE A DIV E INICIA JOGO
-    document.getElementById('game').style.visibility = 'visible';
+    document.getElementById('jogo').style.visibility = 'visible';
     
 }
 
