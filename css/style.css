@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family:'Gill Sans';
 }
 html, .fullscren{
     display: flex;
@@ -10,12 +10,12 @@ html, .fullscren{
 }
 h1,h3{
     text-align: center;
+    font-family: 'Franklin Gothic Medium';
 }
 .container{
     margin: auto;
 }
 table {
-    text-align: center;
     width:450px;
     height:350px;
     border:1px solid black;
@@ -24,13 +24,15 @@ table tr {
     background-color:deeppink;
     font:bold 46px Verdana;
     color:white;
+
 }
 table tr td {
     text-align:center;
     width:33.33%;
+
 }
 table tr td:hover {
-    cursor:pointer;
+    cursor: grab;
 }
 input[type=button] {
     width:60px;

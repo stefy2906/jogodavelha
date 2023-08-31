@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="theme-color" content="white" />
     <title>Jogo da Velha</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css"/>
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="img/jgo.png" />
+    <link rel="apple-touch-icon" href="img/jogo.png" />
 </head>
 <body class="fullscren">
     <div class="container">
@@ -23,6 +23,7 @@
         <h3 id="jogadorAtual"> </h3>
 
 <div id="game">
+    <center>
 	<table cellpadding="0" cellspacing="0">
 		<tr class="linha"> 
 			<td onclick="javascript: setOnCeil(this, 0);" onmouseover="javascript: this.style.backgroundColor = 'white'" onmouseout="javascript: this.style.backgroundColor = 'deeppink'"> &nbsp; </td>
@@ -40,6 +41,7 @@
 			<td onclick="javascript: setOnCeil(this, 8);" onmouseover="javascript: this.style.backgroundColor = 'white'" onmouseout="javascript: this.style.backgroundColor = 'deeppink'"> &nbsp; </td>
 		</tr>
 	</table>
+</center>
 </div>
     <script src="/js/js.js"></script>
 </body>
