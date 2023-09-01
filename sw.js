@@ -1,5 +1,5 @@
-let CacheName = "jogodavelha";
-let filesToCache = ["/", "/index.html”",
+let cacheName = "jogodavelha";
+let filesToCache = ["/", "/index.html",
 "/css/style.css", "/js/js.js"];
 
 /* inicializando a service worker e fazendo o
