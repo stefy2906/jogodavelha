@@ -1,5 +1,6 @@
 body{
     font-family:'Gill Sans';
+    background-color: aquamarine;
 }
 html, .fullscren{
     display: flex;
@@ -21,15 +22,15 @@ table {
     border:1px solid black;
 }
 table tr {
-    background-color:deeppink;
+    background-color:#FFC9D8;
     font:bold 46px Verdana;
-    color:white;
+    color:black;
 
 }
 table tr td {
     text-align:center;
     width:33.33%;
-
+    border: solid 2px rgb(0, 0, 0);
 }
 table tr td:hover {
     cursor: grab;
@@ -40,12 +41,12 @@ input[type=button] {
     font-size:15px;
     font-weight:bold; 
     margin-bottom:10px;
-    border-color: deeppink;
+    border-color:deeppink;
 }
 fieldset {
     font-size:20;
     font-weight:bold; 
-    border:2px solid white; 
+    border:2px solid BLACK; 
     width: 300px; 
     margin-bottom:25px;
 }
