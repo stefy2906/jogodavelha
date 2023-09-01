@@ -59,11 +59,11 @@ tabuleiroIsFilled = function() {
 allElementsInSomeLine = function() {
     for( var i = 0; i < 7; i += 3) {
         if ( tabuleiro[i] == 'X' && tabuleiro[i + 1] == 'X' && tabuleiro[i + 2] == 'X' ) { 
-            alert (jogador1.nome + ' ganhou!!!');
+            alert (jogador1.nome + ' Ganhou!!!');
             reset();
         }
         if ( tabuleiro[i] == 'O' && tabuleiro[i + 1] == 'O' && tabuleiro[i + 2] == 'O' ) {
-            alert (jogador2.nome + ' ganhou!!!');
+            alert (jogador2.nome + ' Ganhou!!!');
             reset();
         }
     }
@@ -73,11 +73,11 @@ allElementsInSomeLine = function() {
 allElementsInSomeColumn = function() {
     for( var i = 0; i < 3; i++) {
         if ( tabuleiro[i] == 'X' && tabuleiro[i + 3] == 'X' && tabuleiro[i + 6] == 'X' ) { 
-            alert (jogador1.nome + ' ganhou!!!');
+            alert (jogador1.nome + ' Ganhou!!!');
             reset();
         }
         if ( tabuleiro[i] == 'O' && tabuleiro[i + 3] == 'O' && tabuleiro[i + 6] == 'O' ) {
-            alert (jogador2.nome + ' ganhou!!!');
+            alert (jogador2.nome + ' Ganhou!!!');
             reset();
         }
     }
