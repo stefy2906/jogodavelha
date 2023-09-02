@@ -88,11 +88,11 @@ allElementsInSomeColumn = function() {
 allElementsInSomeDiagonal = function() {
     if ( (tabuleiro[0] == 'X' && tabuleiro[4] == 'X' && tabuleiro[8] == 'X') ||
           (tabuleiro[2] == 'X' && tabuleiro[4] == 'X' && tabuleiro[6] == 'X')) {
-            alert (jogador1.nome + ' ganhou!!!');
+            alert (jogador1.nome + ' Ganhou!!!');
         reset();
     } else if ( (tabuleiro[0] == 'O' && tabuleiro[4] == 'O' && tabuleiro[8] == 'O') ||
                 (tabuleiro[2] == 'O' && tabuleiro[4] == 'O' && tabuleiro[6] == 'O') ) {
-            alert (jogador2.nome + ' ganhou!!!');
+            alert (jogador2.nome + ' Ganhou!!!');
         reset();
     } 
 }
